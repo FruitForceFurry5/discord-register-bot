@@ -1,0 +1,6 @@
+{
+  "rulesChannel": "1122242718609977505", // The ID of the rules channel where users should read the rules.
+  "channel": "1122242713929138176", // The ID of the channel where the registration embed will be sent.
+  "memberRole": "1161339058543398972", // The ID of the role that will be assigned to users after successful registration.
+  "verifyStatus": true // Set to true to enable verification via a 6-digit code, or false to disable.
+}
