@@ -3,16 +3,9 @@ const { Routes } = require("discord-api-types/v10");
 const { Client, Collection, EmbedBuilder, ModalBuilder, TextInputBuilder,TextInputStyle,ActionRowBuilder,InteractionType} = require('discord.js');
 const client = new Client({ intents: 851 });
 const fs = require("fs");
-const makermrsn = "senotron";
-const mrsntoken = process.env.TOKEN;
-const config = {
-  prefix: process.env.PREFIX,
-  token: process.env.TOKEN,
-  guild: process.env.GUILD,
-  channel: process.env.CHANNEL,
-  verified: process.env.VERIFIED,
-  admin: process.env.ADMIN
-};
+const makermrsn = "senotron"
+const mrsntoken = ""
+const config = require("./config.json")
 
 
 
